@@ -9,7 +9,7 @@ tasks:
 
   - name: run front-end
     before: cd client
-    init: npm install && echo "REACT_APP_API_URL=$(gp url 3001)" > .env
+    init: npm install && echo "REACT_APP_API_URL=$(gp url 3000)" > .env
     command: npm start
     openMode: split-right
     
