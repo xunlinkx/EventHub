@@ -14,7 +14,7 @@ tasks:
     openMode: split-right
     
   - name: create tables in db
-    init: './init-db.sh'
+    init: sleep 5; './init-db.sh'
 
 ports:
   - name: front-end
